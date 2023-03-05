@@ -11,3 +11,5 @@ First.js
 https://github.com/dieselraf/JS_FS
 
 3) Создать рандомную issue к чужому репозиторию с домашкой
+
+https://github.com/Onimys/JavaScriptFullstackEducation/issues/2
