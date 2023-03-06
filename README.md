@@ -1,2 +1,2 @@
 # JS_FS
-JS_FS Study
+JS_FullStack Study
