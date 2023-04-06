@@ -1,3 +1,5 @@
+'use strict';
+
 class Node {
   value: number;
   left: Node | null;
