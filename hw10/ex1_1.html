@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>EX1</title>
+</head>
+
+
+
+<body>
+	<div id="mainframe" >
+		<h2 id="header">Workit</h2>
+		<div class=menu >	
+			<div class=menuel id = "el1">☀ Dashboard </div>
+			<div class=menuel id = "el2">❤ Available units </div>
+			<div class=menuel id = "el3">☢ Invoices </div>
+			<div class=menuel id = "el4">❤ Projects </div>
+			<div class=menuel id = "el5">❤ Social media </div>
+			<div class=menuel id = "el6">❤ Integrations </div>
+			<div class=menuel id = "el7">❤ Documentation </div>				
+		</div>	
+		<div class=bot >	
+			<div id = "bl1">☢ Settings </div>
+			<div id = "bl2">☀ Help center </div>		
+		</div>
+	</div>
+	<div id="dataframe" >
+		<div>
+			
+			<table  >
+				<tr>
+					<th  width="800px" align = "left">TEAM▼</th>
+					<th color = "aqua" width="100px">
+						<button>New users +</button>
+					</th>
+					<th width="40px">zvonocheg</th>
+					<th width="40px">search</th>
+					<th>
+						<img src="face.jpg" alt="face" title="face" width="45" height="35"/>	
+					
+					</th>
+				</tr>
+				<tr>
+					<th align = "left" width="100px">
+						<button>Filter User</button>
+					</th>
+					<th width="200px" align = "left">
+						<input type="text" placeholder="Try: blablabla">
+					</th>
+					<th width="100px">Sort by Date</th>
+					<th width="50px" align = "left">
+						<select name="something">
+							<option selected>:</option>
+							<option>something else</option>
+						</select>
+					</th>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<div class=members >	
+				<div class=mem id = "ml1">
+					<div class=memItems >	
+						<div class=memItP id = "mIl1" >
+							<img src="face.jpg" alt="face" title="face" width="75" height="55"/>
+						</div>
+						<div class=memItP id = "mIl2">Name </div>
+						<span class=memIt id = "mIl3">Projects</span>	
+						<span class=memIt id = "mIl4">Tasks</span>	
+						<span class=memIt id = "mIl5">Insight</span>	
+						<span class=memIt id = "mIl6">details</span>	
+						<span class=memIt id = "mIl7">details</span>	
+						<span class=memIt id = "mIl8">details</span>				
+						<div class=memItP id = "mIl9">View Profile </div>							
+					</div>	
+				
+				</div>
+				<div class=mem id = "ml2">
+					<div class=memItems >	
+						<div class=memItP id = "mIl11">
+							<img src="face.jpg" alt="face" title="face" width="75" height="55"/>
+						</div>
+						<div class=memItP id = "mIl21">Name </div>
+						<span class=memIt id = "mIl31">Projects</span>	
+						<span class=memIt id = "mIl41">Tasks</span>	
+						<span class=memIt id = "mIl51">Insight</span>	
+						<span class=memIt id = "mIl61">details</span>	
+						<span class=memIt id = "mIl71">details</span>	
+						<span class=memIt id = "mIl81">details</span>						
+						<div class=memItP id = "mIl91">View Profile </div>							
+					</div>					
+				</div>
+				<div class=mem id = "ml3">Team Memb </div>
+				<div class=mem id = "ml4">Team Memb </div>
+				<div class=mem id = "ml5">Team Memb </div>
+				<div class=mem id = "ml6">Team Memb </div>	
+				<div class=mem id = "ml7">Team Memb </div>
+				<div class=mem id = "ml8">Team Memb </div>
+				<div class=mem id = "ml9">Team Memb </div>
+				<div class=mem id = "ml10">Team Memb </div>
+				<div class=mem id = "ml11">Team Memb </div>
+				<div class=mem id = "ml12">Team Memb </div>					
+		</div>	
+			
+	
+	</div>
+	
+	
+	<style>
+	#header{
+	
+	width:200px;
+	height:50px;
+	}
+	#mainframe{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color:black;
+	width:200px;
+	height:100%;
+	color:white;
+	text-align:center;
+	}
+		
+	.menu {
+	margin:30px;
+	flex-direction: column;
+	display: flex;			
+	align-items: flex-start;	
+	
+	gap:20px;
+	}
+	.menuel:hover{
+	color:red;
+	}	
+	.bot{
+	flex-direction: column;
+	display: flex;			
+	align-items: center;	
+	justify-content: flex-end;
+	gap:20px;
+	
+	
+	height:900px;
+	}
+	
+	#dataframe{
+	position: fixed;
+	top: 0px;
+	left: 200px;
+	width:1200px;
+	
+	}
+	
+	.members {
+	
+	background-color:silver;
+	display: flex;			
+	align-items: flex-start;	
+	flex-wrap:wrap;
+	gap:20px;
+	}
+	
+	.mem {
+	flex-direction: row;
+	margin:30px;	
+	width:200px;
+	height:300px;
+	border:3px solid black;
+	border-radius: 10px;
+	background-color:white;
+	display: flex;			
+	align-items: center;
+	justify-content: center;	
+	flex-wrap:wrap;
+	gap:30px;
+	}
+	
+	.memIt{
+	width:30px;
+	text-align:center;
+	margin:5px;
+	
+	
+	}
+	
+	.memItP{
+	margin:10px;
+	height:50px;
+	width:180px;	
+	text-align:center;
+	align-items: center;
+	
+	}
+	
+	button{
+	background-color:aqua;
+	border-radius: 10px;
+	}
+	
+	
+	</style>
+	
+</body>
+
+
+
+</html>
